@@ -1,0 +1,7 @@
+D:\TAT\TAT_2018.2\task_DEV-1.1\task_DEV-1.1\obj\Debug\task_DEV-1.1.csprojResolveAssemblyReference.cache
+D:\TAT\TAT_2018.2\task_DEV-1.1\task_DEV-1.1\obj\Debug\task_DEV-1.1.csproj.CoreCompileInputs.cache
+D:\TAT\TAT_2018.2\task_DEV-1.1\task_DEV-1.1\bin\Debug\task_DEV-1.1.exe.config
+D:\TAT\TAT_2018.2\task_DEV-1.1\task_DEV-1.1\bin\Debug\task_DEV-1.1.exe
+D:\TAT\TAT_2018.2\task_DEV-1.1\task_DEV-1.1\bin\Debug\task_DEV-1.1.pdb
+D:\TAT\TAT_2018.2\task_DEV-1.1\task_DEV-1.1\obj\Debug\task_DEV-1.1.exe
+D:\TAT\TAT_2018.2\task_DEV-1.1\task_DEV-1.1\obj\Debug\task_DEV-1.1.pdb

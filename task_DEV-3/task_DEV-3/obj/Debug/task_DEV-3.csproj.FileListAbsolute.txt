@@ -1,0 +1,7 @@
+C:\Users\fanfe\Desktop\task_DEV-3\task_DEV-3\bin\Debug\task_DEV-3.exe.config
+C:\Users\fanfe\Desktop\task_DEV-3\task_DEV-3\bin\Debug\task_DEV-3.exe
+C:\Users\fanfe\Desktop\task_DEV-3\task_DEV-3\bin\Debug\task_DEV-3.pdb
+C:\Users\fanfe\Desktop\task_DEV-3\task_DEV-3\obj\Debug\task_DEV-3.csprojResolveAssemblyReference.cache
+C:\Users\fanfe\Desktop\task_DEV-3\task_DEV-3\obj\Debug\task_DEV-3.csproj.CoreCompileInputs.cache
+C:\Users\fanfe\Desktop\task_DEV-3\task_DEV-3\obj\Debug\task_DEV-3.exe
+C:\Users\fanfe\Desktop\task_DEV-3\task_DEV-3\obj\Debug\task_DEV-3.pdb

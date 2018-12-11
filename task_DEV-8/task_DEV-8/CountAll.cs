@@ -1,12 +1,17 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 namespace task_DEV_8
 {
-    class CountAll
+    class CountAll:ICommand
     {
+        readonly AutoCatalog autoCatalog;
+        public CountAll(AutoCatalog autoCatalog)
+        {
+            this.autoCatalog = autoCatalog;
+        }
+        public void Execute()
+        {
+            int amountOfCars = autoCatalog.AmountOfAllCars();
+            Console.WriteLine(amountOfCars);
+        }
     }
 }

@@ -11,7 +11,17 @@ namespace task_DEV_8
     {
         static void Main(string[] args)
         {
-           
+            try
+            {
+                Menu a = new Menu();
+                a.Show();
+                Console.ReadKey();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+          
         }
     }
 }

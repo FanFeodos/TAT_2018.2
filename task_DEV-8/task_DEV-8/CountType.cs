@@ -1,12 +1,17 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 namespace task_DEV_8
 {
-    class CountType
+    class CountType:ICommand
     {
+        readonly AutoCatalog autoCatalog;
+        public CountType(AutoCatalog autoCatalog)
+        {
+            this.autoCatalog = autoCatalog;
+        }
+        public void Execute()
+        {
+            int amountOfBrands = autoCatalog.AmountOfBrands();
+            Console.WriteLine(amountOfBrands);
+        }
     }
 }

@@ -1,31 +1,39 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Xml.Linq;
 
 namespace task_DEV_8
 {
     class ParsetoShow
     {
-        //задаем путь к нашему рабочему файлу XML
-        string fileName = "base.xml";
-        //читаем данные из файла
-        XDocument doc = XDocument.Load(fileName);
-            //проходим по каждому элементу в найшей library
-            //(этот элемент сразу доступен через свойство doc.Root)
-            foreach (XElement el in doc.Root.Elements())
+        public void ParseXmlToAutoShow(string fileName, AutoCatalog autoCatalog)
         {
-            //Выводим имя элемента и значение аттрибута id
-            Console.WriteLine("{0} {1}", el.Name, el.Attribute("id").Value);
-            Console.WriteLine("  Attributes:");
-            //выводим в цикле все аттрибуты, заодно смотрим как они себя преобразуют в строку
-            foreach (XAttribute attr in el.Attributes())
-                Console.WriteLine("    {0}", attr);
-            Console.WriteLine("  Elements:");
-            //выводим в цикле названия всех дочерних элементов и их значения
-            foreach (XElement element in el.Elements())
-                Console.WriteLine("    {0}: {1}", element.Name, element.Value);
+            XDocument doc = XDocument.Load(fileName);
+            foreach (XElement el in doc.Root.Elements())
+            {
+                string brand=null, model=null;
+                int count=0, price=0;
+                foreach (XElement element in el.Elements())
+                {
+                    switch (element.Name.ToString())
+                    {
+                        case "brand":
+                            brand = element.Value;
+                            break;
+                        case "model":
+                            model = element.Value;
+                            break;
+                        case "count":
+                            count = int.Parse(element.Value);
+                            break;
+                        case "price":
+                            price = int.Parse(element.Value);
+                            break;
+                    }
+                }
+                Auto currentAuto = new Auto(brand, model, count, price);
+                Add added=new Add(autoCatalog,currentAuto);
+                added.Execute();
+            }
         }
+        
 }
 }

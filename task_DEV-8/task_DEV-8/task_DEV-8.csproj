@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A606E323-A8AF-4470-94C9-DFC3C564DD39}</ProjectGuid>
+    <ProjectGuid>{9DBE313E-0E7E-4494-B453-CC4D26C3F932}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>task_DEV_3</RootNamespace>
-    <AssemblyName>task_DEV-3</AssemblyName>
+    <RootNamespace>task_DEV_8</RootNamespace>
+    <AssemblyName>task_DEV-8</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,9 +42,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Converter.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="Add.cs" />
+    <Compile Include="Auto.cs" />
+    <Compile Include="AutoCatalog.cs" />
+    <Compile Include="AveragePrice.cs" />
+    <Compile Include="AveragePriceType.cs" />
+    <Compile Include="AvailableCommands.cs" />
+    <Compile Include="CountAll.cs" />
+    <Compile Include="CountType.cs" />
+    <Compile Include="EntryPoint.cs" />
+    <Compile Include="ICommand.cs" />
+    <Compile Include="Menu.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ParsetoShow.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A606E323-A8AF-4470-94C9-DFC3C564DD39}</ProjectGuid>
+    <ProjectGuid>{C0999C54-B3EA-4B1A-ACA9-8E6E113C0CB9}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>task_DEV_3</RootNamespace>
-    <AssemblyName>task_DEV-3</AssemblyName>
+    <RootNamespace>Work1</RootNamespace>
+    <AssemblyName>Work1</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,8 +42,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Converter.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="EntryPoint.cs" />
+    <Compile Include="FindDoubleOfRepeatingSymbol.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

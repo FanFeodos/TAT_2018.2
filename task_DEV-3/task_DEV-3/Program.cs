@@ -10,18 +10,18 @@ namespace task_DEV_3
     {
         static void Main(string[] args)
         {
-            try
-            {
-                StringBuilder output = new StringBuilder();
-                ConvertDecimalSystemToOtherSystems outputted = new ConvertDecimalSystemToOtherSystems();
-                output = outputted.Convertation(args);
-                Console.WriteLine(output);
+            //try
+            //{
+            //    StringBuilder output = new StringBuilder();
+            //    Converter outputted = new Converter();
+            //    output = outputted.Convertation(args);
+            //    Console.WriteLine(output);
 
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex.Message);
-            }
+            //}
+            //catch (Exception ex)
+            //{
+            //    Console.WriteLine(ex.Message);
+            //}
         }
     }
 }
